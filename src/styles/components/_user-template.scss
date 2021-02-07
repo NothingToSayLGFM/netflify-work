@@ -1,0 +1,39 @@
+.user {
+  font-family: "HelveticaNeue-Medium";
+  margin-bottom: 126px;
+  .theme--light.v-card.v-card--outlined {
+    border: none;
+  }
+}
+
+.tab-image-user {
+  cursor: pointer;
+}
+
+.user__card {
+  padding: 15px;
+}
+.user__image {
+  height: 131px;
+  margin-left: 11px;
+  margin-right: 7px;
+  margin-top: 14px;
+}
+
+.user-icon {
+  color: #767676 !important;
+  i {
+    font-size: 17px !important;
+    padding-right: 6px;
+  }
+  a {
+    text-decoration: none;
+    color: #767676 !important;
+  }
+}
+
+.tab-collection {
+  div {
+    padding-left: 15px;
+  }
+}

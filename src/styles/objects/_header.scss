@@ -1,0 +1,25 @@
+.navbar {
+  .menu-container {
+    max-width: 1587px;
+  }
+  &__items {
+    justify-content: flex-end;
+    .item {
+      padding: 2px 19px !important;
+      span {
+        font-family: "HelveticaNeue-Medium";
+        font-size: 13px;
+      }
+      &:hover {
+        color: #57a773;
+      }
+      &:focus {
+        color: #57a773;
+      }
+    }
+  }
+  .icon {
+    min-width: auto !important;
+    padding: 0 15px !important;
+  }
+}

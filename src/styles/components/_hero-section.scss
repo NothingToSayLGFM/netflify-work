@@ -1,0 +1,53 @@
+.day-photo {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 220px;
+  &__description {
+    background-color: rgba(100, 100, 100, 0.04);
+    display: flex;
+    padding: 15px;
+    padding-top: 158px;
+    width: 100%;
+    padding-bottom: 300px;
+  }
+
+  &__description--wrap {
+    max-width: 442px;
+    margin: 0 auto;
+    .button-green {
+      padding: 36px 15px !important;
+      border-radius: 50px !important;
+      min-width: 290px !important;
+      background-color: rgb(87, 167, 115) !important;
+      border-color: rgb(87, 167, 115) !important;
+      span {
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "HelveticaNeue-Bold";
+        text-align: center;
+        letter-spacing: -0.225px;
+        color: #fff;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 37px;
+  }
+  &__subtitle {
+    font-size: 16px;
+    max-width: 363px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #100e0b;
+    margin-bottom: 19px;
+    font-family: "HelveticaNeue-Light";
+  }
+  &__image {
+    max-width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+    max-height: 980px;
+  }
+}

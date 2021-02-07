@@ -1,0 +1,61 @@
+.search-photo {
+  position: absolute;
+  bottom: 82px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  min-height: 80px;
+  max-width: 1568px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px !important;
+  &__input {
+    max-width: 508px;
+    .v-input__control {
+      height: 100%;
+      .v-input__slot {
+        background-color: transparent !important;
+        height: 100%;
+        input {
+          padding-top: 14px;
+        }
+      }
+    }
+    .v-input__prepend-outer {
+      margin-right: 0;
+    }
+  }
+  .search-image {
+    position: absolute;
+    right: 3px;
+    top: 36%;
+    max-width: 20px;
+  }
+  .search-button {
+    padding: 15px 10px !important;
+    min-width: 103px !important;
+    height: 42px !important;
+    margin-bottom: 12px !important;
+    margin-top: 12px !important;
+    span {
+      font-family: "HelveticaNeue-Medium";
+      font-size: 16px;
+    }
+    &.active {
+      background-color: #b7b4b4;
+    }
+  }
+  .search-list-buttons {
+    margin-left: 47px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 8px;
+  }
+
+  .v-input__slot {
+    &::before {
+      display: none;
+    }
+  }
+}

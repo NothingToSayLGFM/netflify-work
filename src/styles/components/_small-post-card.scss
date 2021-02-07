@@ -1,0 +1,79 @@
+.small-card {
+  height: 100%;
+  border-radius: 8px !important;
+  position: relative;
+  padding-bottom: 55px;
+  &__text-wrap {
+    padding: 26px 26px 0px 26px;
+  }
+  &__image {
+    height: 258px;
+    cursor: pointer;
+  }
+  .small-card__text {
+    .small-card__title {
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.225px;
+      font-family: "HelveticaNeue-Medium";
+      color: #100e0b;
+      margin-bottom: 0;
+      a {
+        padding: 0 !important;
+        min-width: unset;
+        height: unset;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.225px;
+      }
+    }
+    .small-card__subtitle {
+      line-height: 16px;
+      color: #a4a8b2;
+      letter-spacing: -0.15px;
+      font-family: "HelveticaNeue";
+      font-size: 12px;
+      padding-bottom: 19px;
+      margin-bottom: 0;
+    }
+    .small-card__description {
+      line-height: 18px;
+      letter-spacing: -0.1625px;
+      color: #85878c;
+      font-family: "HelveticaNeue";
+      font-size: 13px;
+    }
+  }
+  .small-card__icon {
+    margin-right: 54px;
+  }
+  &__bg-icons {
+    border-top: 1px solid #f2f2f2;
+    padding: 0px 40px 0px 40px;
+    color: #adaeb0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    .v-btn--icon.v-size--default .v-icon {
+      font-size: 19px;
+      color: #adaeb0;
+    }
+    button {
+      span {
+        font-size: 11px;
+        color: #adaeb0;
+        font-family: "HelveticaNeue";
+        line-height: 17px;
+        letter-spacing: -0.1625px;
+      }
+    }
+    .v-card__actions {
+      // padding: 12px 0px 8px 0px;
+      padding: 6px 0px 3px 0px;
+      .v-btn--icon.v-size--default {
+        height: 45px;
+        width: 45px;
+      }
+    }
+  }
+}
